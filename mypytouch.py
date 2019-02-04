@@ -14,7 +14,7 @@ for i in list_name:
         f=open(i,'w')
         f.close()
 '''
-#repition file not alow and data also save
+#rep. file not alow and data also save
 name=sys.argv[1:]
 for i in name:
         f=open(i,'a+')
